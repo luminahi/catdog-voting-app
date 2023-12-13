@@ -1,0 +1,17 @@
+{
+    "name": "worker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "consumer.js",
+    "scripts": {
+        "start": "export POSTGRES_HOST; export POSTGRES_USER; export POSTGRES_DB; export PASSWORD; node worker.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "pg": "^8.11.3",
+        "redis": "^4.6.11"
+    },
+    "type": "module"
+}
