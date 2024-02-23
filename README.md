@@ -1,4 +1,5 @@
-# catdog-voting-app
+# Dockerized Voting App
+
 An application for voting on cats or dogs, using containerized Node.js, Redis, PostgreSQL and Nginx.
 
 Nginx serves as a simple web server. Each vote is placed in a queue in Redis, processed by a separate container named 'worker' and then stored in PostgreSQL.
